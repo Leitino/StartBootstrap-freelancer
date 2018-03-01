@@ -4,6 +4,9 @@
 .bg1{
   background-color: #18BC9C;
 }
+.bg2{
+  background-color: #1A252F;
+}
 .contenitore{
   width: 100%;
   color: white;
@@ -17,20 +20,73 @@
   color: white;
 }
 
-.col-lg-12, .portfolio{
+.col-lg-12, .portfolio, .about, .btn-lg, .form, .prefooter{
   text-align: center;
   padding-top: 40px;
 }
-.centrato{
-  margin-top: 30px;
-}
 
 .portfolio{
-  width: 70%;
+  width: 85%;
   margin: auto;
 }
 
 .col-lg-4 img{
   padding: 10px;
-  width: 300px;
+  width: 350px;
+}
+
+.testo{
+  width: 70%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.btn-lg{
+  color: white;
+  margin: auto;
+  width: 150px;
+  padding-top: 20px;
+  border: 1px solid white;
+}
+.btn-sm{
+  background-color: #18BC9C;
+  width: 150px;
+  border: 1px solid black;
+}
+.btn-lg:hover{
+  background-color: white;
+  color:black;
+}
+.clear{
+  clear: both;
+}
+
+.form{
+  color: black;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+form input{
+  display: block;
+  width: 100%;
+}
+
+.prefooter{
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color:white;
+}
+.icon{
+  padding: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.footer{
+  text-align: center;
+  color:white;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
